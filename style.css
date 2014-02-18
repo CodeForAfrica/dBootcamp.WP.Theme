@@ -25,6 +25,11 @@
     border: solid 2px;
 }
 
+.et_pb_promo_button:hover {
+	color: #fff;
+	background-color: #d94328 !important;
+}
+
 /* HOME PAGE */
 
 .home-about .et_pb_promo{
