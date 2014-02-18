@@ -13,6 +13,20 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+/*DIVI CTA BUTTONS - OUTLINE STYLE*/
+ 
+.et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .et_pb_pricing_table_button {
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: #d94328;
+    border-color: #d94328;
+}
+.et_pb_promo_button, .et_pb_newsletter_button, a.et_pb_more_button, .et_pb_pricing_table_button {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px;
+}
+
+/* HOME PAGE */
+
 .home-about .et_pb_promo{
     margin-bottom: 0px;
 }
@@ -46,22 +60,12 @@
     opacity: 0.5;
 }
 
-/*DIVI CTA BUTTONS - OUTLINE STYLE*/
- 
-.et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .et_pb_pricing_table_button {
-    background-color: rgba(255, 255, 255, 0) !important;
-    color: #d94328;
-    border-color: #d94328;
-}
-.et_pb_promo_button, .et_pb_newsletter_button, a.et_pb_more_button, .et_pb_pricing_table_button {
-    background-color: rgba(0, 0, 0, 0);
-    border: solid 2px;
-}
-
 /* REGISTRATION PAGE */
+
 div.ss-form-container br { display: none; }
 
 /* SPEAKERS PAGE */
+
 #speakers img {
     height: 200px;
     width: 200px;
@@ -69,6 +73,7 @@ div.ss-form-container br { display: none; }
 }
 
 /* HACKDASH IFRAME */
+
 #hackdash {
     padding: 0;
 }
