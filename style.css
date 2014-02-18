@@ -1,0 +1,83 @@
+/*
+ Theme Name:   dBootcamp
+ Theme URI:    http://dbootcamp.org
+ Description:  dBootcamp theme.
+ Author:       Code for Africa
+ Author URI:   http://codeforafrica.org
+ Template:     Divi
+ Version:      0.9.0
+*/
+
+@import url("../Divi/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.home-about .et_pb_promo{
+    margin-bottom: 0px;
+}
+#social-icons img {
+    height: 50px
+    width: 50px;
+    border-radius: 999px;
+}
+#social-icons img:hover {
+    background-color: #f1c55a;
+}
+#session-leaders img, #resources img{
+    height: 150px;
+    width: 150px;
+    border-radius: 999px;
+    background-color: #fff;
+}
+
+#sponsors {
+    vertical-align: middle;
+}
+#sponsors img {
+    height: 100px;
+    padding: 10px;
+}
+#sponsors img:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+/*DIVI CTA BUTTONS - OUTLINE STYLE*/
+ 
+.et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .et_pb_pricing_table_button {
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: #d94328;
+    border-color: #d94328;
+}
+.et_pb_promo_button, .et_pb_newsletter_button, a.et_pb_more_button, .et_pb_pricing_table_button {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px;
+}
+
+/* REGISTRATION PAGE */
+div.ss-form-container br { display: none; }
+
+/* SPEAKERS PAGE */
+#speakers img {
+    height: 200px;
+    width: 200px;
+    border-radius: 999px;
+}
+
+/* HACKDASH IFRAME */
+#hackdash {
+    padding: 0;
+}
+#hackdash .et_pb_row {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+#hackdash iframe{
+    padding: 0;
+	min-height: 500px;
+}
