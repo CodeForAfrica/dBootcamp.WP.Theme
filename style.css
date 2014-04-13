@@ -10,8 +10,8 @@
 
 @import url("../Divi/style.css");
 
-/* =Theme customization starts here
--------------------------------------------------------------- */
+/* = Theme customization starts here
+ * -------------------------------------------------------------- */
 
 /*DIVI CTA BUTTONS - OUTLINE STYLE*/
  
@@ -30,7 +30,13 @@
 	background-color: #d94328 !important;
 }
 
-/* HOME PAGE */
+#top-menu a:hover {
+	color: #0873bb;
+}
+
+
+/* = Home Page
+ * -------------------------------------------------------------- */
 
 #home-banner-image {
 	background-color: #d94328;
@@ -64,7 +70,6 @@
 	font-size: 50px;
 	margin-bottom: 10px;
 }
-
 
 .home-about .et_pb_promo{
     margin-bottom: 0px;
@@ -132,11 +137,15 @@
     opacity: 0.5;
 }
 
-/* REGISTRATION PAGE */
+
+/* = Registration Page
+ * -------------------------------------------------------------- */
 
 div.ss-form-container br { display: none; }
 
-/* SPEAKERS PAGE */
+
+/* = Speakers Page
+ * -------------------------------------------------------------- */
 
 #speakers img {
     height: 200px;
@@ -144,7 +153,9 @@ div.ss-form-container br { display: none; }
     border-radius: 999px;
 }
 
-/* HACKDASH IFRAME */
+
+/* = HackDash Page
+ * -------------------------------------------------------------- */
 
 #hackdash {
     padding: 0;
