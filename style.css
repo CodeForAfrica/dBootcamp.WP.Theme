@@ -15,9 +15,9 @@
 
 /*DIVI CTA BUTTONS - OUTLINE STYLE*/
  
-.et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .et_pb_pricing_table_button {
+.et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .et_pb_pricing_table_button, #home-registration-btn .et_pb_promo_button {
     background-color: rgba(255, 255, 255, 0) !important;
-    color: #d94328;
+    color: #d94328 !important;
     border-color: #d94328;
 }
 .et_pb_promo_button, .et_pb_newsletter_button, a.et_pb_more_button, .et_pb_pricing_table_button {
@@ -25,8 +25,8 @@
     border: solid 2px;
 }
 
-.et_pb_promo_button:hover {
-	color: #fff;
+#home-registration-btn .et_pb_promo_button:hover {
+	color: #fff !important;
 	background-color: #d94328 !important;
 }
 
@@ -71,9 +71,6 @@
 	margin-bottom: 10px;
 }
 
-.home-about .et_pb_promo{
-    margin-bottom: 0px;
-}
 #social-icons img {
     height: 50px;
     width: 50px;
