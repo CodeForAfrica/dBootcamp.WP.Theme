@@ -12,6 +12,40 @@
 //}
 //add_action( 'customize_register', 'cfa_dbootcamp_customize_register' );
 
+// Add footer setting
+function dbootcamp_customize_register( $wp_customize )
+{
+	// Select footer page
+	$args = array(
+		'sort_order' => 'ASC',
+		'sort_column' => 'post_title',
+		'post_type' => 'page',
+		'post_status' => 'publish'
+	); 
+	$pages = get_pages($args);
+	$choose_pg = array();
+	foreach ($pages as $page) {
+		$choose_pg = array_merge($choose_pg, array("page-".$page->ID => (string)$page->post_title));
+	}
+	$wp_customize->add_setting( 'dbootcamp_footer_pg' , array(
+	    'default'		=> '0',
+	    'type'			=> 'option',
+	    'capability'	=> 'edit_theme_options',
+	    'transport'		=> 'refresh',
+	) );
+	$wp_customize->add_control(
+		'dbootcamp_footer_pg',
+		array(
+			'label'		=> __( 'Footer Page', 'dBootcamp' ),
+			'section'	=> 'et_divi_settings',
+			'type'      => 'select',
+			'choices'	=> $choose_pg,
+			'priority'  => 56,
+		)
+	);
+}
+add_action( 'customize_register', 'dbootcamp_customize_register' );
+
 
 
 

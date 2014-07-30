@@ -1,5 +1,16 @@
 <?php
 	if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
+		<!-- dBootcamp custom footer -->
+		<?php
+			// Footer page defined
+			if ( !get_option('dbootcamp_footer_pg') ) {
+				
+			} else {
+				$page_id = (int)substr(get_option('dbootcamp_footer_pg'), 5);
+				$dbootcamp_footer_pg = get_post( $page_id );
+				echo apply_filters( 'the_content', $dbootcamp_footer_pg->post_content );
+			}
+		?>
 
 		<footer id="main-footer">
 			<?php get_sidebar( 'footer' ); ?>
