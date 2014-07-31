@@ -169,3 +169,8 @@ div.ss-form-container br { display: none; }
 	    padding: 0;
 		min-height: 500px;
 	}
+	
+/* = Agenda Page
+ * -------------------------------------------------------------- */
+
+#agenda iframe { border: 1px solid #333; }
