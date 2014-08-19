@@ -42,7 +42,7 @@
 						}
 					?>
 				
-					<p id="footer-info"><?php printf( __( 'Part of the %1$s | Implemented by %2$s', 'Divi' ), '<a href="http://www.ujuzi.org" title="Ujuzi" target="_blank">Ujuzi Initiative</a>', '<a href="http://www.codeforafrica.org" title="Code for Africa" target="_blank">Code for Africa</a>' ); ?></p>
+					<p id="footer-info"><?php printf( __( 'Implemented by %1$s', 'Divi' ), '<a href="http://www.codeforafrica.org" title="Code for Africa" target="_blank">Code for Africa</a>' ); ?></p>
 				</div>	<!-- .container -->
 			</div>
 		</footer> <!-- #main-footer -->
