@@ -80,6 +80,10 @@
 	margin-bottom: 10px;
 }
 
+.home-banner .et_pb_slide_description h1, .home-banner .et_pb_slide_description h2 {
+	font-weight: 900;
+}
+
 #social-icons img {
     height: 50px;
     width: 50px;
