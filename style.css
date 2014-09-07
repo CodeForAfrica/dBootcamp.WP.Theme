@@ -10,14 +10,82 @@
 
 @import url("../Divi/style.css");
 
-/* =Theme customization starts here
--------------------------------------------------------------- */
+/* = Theme customization starts here
+ * -------------------------------------------------------------- */
 
-.home-about .et_pb_promo{
-    margin-bottom: 0px;
+/*DIVI CTA BUTTONS - OUTLINE STYLE*/
+ 
+.et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .et_pb_pricing_table_button, #home-registration-btn .et_pb_promo_button {
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: #d94328 !important;
+    border-color: #d94328;
 }
+.et_pb_promo_button, .et_pb_newsletter_button, a.et_pb_more_button, .et_pb_pricing_table_button {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px;
+}
+
+#home-registration-btn .et_pb_promo_button:hover {
+	color: #fff !important;
+	background-color: #d94328 !important;
+}
+
+#top-menu a:hover {
+	color: #0873bb;
+}
+
+
+/* = Footer section
+ * -------------------------------------------------------------- */
+
+#footer-logos img {
+	vertical-align: middle;
+}
+ 
+
+
+/* = Home Page
+ * -------------------------------------------------------------- */
+
+#home-banner-image {
+	background-color: #d94328;
+	margin: 0;
+	padding: 0;
+	margin-bottom: -6px;
+}
+	#home-banner-image .et_pb_row {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+	#home-banner-image .et_pb_row::after{
+		content: none;
+	}
+	#home-banner-image .et_pb_column {
+		padding: 0;
+		height: auto;
+	}
+	#home-banner-image img {
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+#home-banner {
+	background-color: #404042;
+	padding: 30px;
+	width: auto;
+}
+#home-banner h1 {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.home-banner .et_pb_slide_description h1, .home-banner .et_pb_slide_description h2 {
+	font-weight: 900;
+}
+
 #social-icons img {
-    height: 50px
+    height: 50px;
     width: 50px;
     border-radius: 999px;
 }
@@ -31,13 +99,46 @@
     background-color: #fff;
 }
 
+.home-blurbs .et_pb_blurb h3 {
+	text-transform: uppercase;
+}
+
+.prizes #trophy {
+	margin: 0 auto 30px;
+	display: block;
+}
+.prizes .et_pb_pricing_table {
+	padding-bottom: 0;
+}
+.prizes ul {
+	margin-bottom: 0;
+}
+
+.partners img {
+	padding: 10px;
+}
+
+.mission {
+	font-style: italic;
+}
 #sponsors {
     vertical-align: middle;
 }
 #sponsors img {
-    height: 100px;
+    height: 70px;
+	width: auto !important;
     padding: 10px;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
 }
+	#sponsors a:first-child img {
+		height: 90px !important;
+	}
+	#sponsors a:nth-child(3) img {
+		height: 60px !important;
+	}
 #sponsors img:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
@@ -46,29 +147,26 @@
     opacity: 0.5;
 }
 
-/*DIVI CTA BUTTONS - OUTLINE STYLE*/
- 
-.et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .et_pb_pricing_table_button {
-    background-color: rgba(255, 255, 255, 0) !important;
-    color: #d94328;
-    border-color: #d94328;
-}
-.et_pb_promo_button, .et_pb_newsletter_button, a.et_pb_more_button, .et_pb_pricing_table_button {
-    background-color: rgba(0, 0, 0, 0);
-    border: solid 2px;
-}
 
-/* REGISTRATION PAGE */
+/* = Registration Page
+ * -------------------------------------------------------------- */
+
 div.ss-form-container br { display: none; }
 
-/* SPEAKERS PAGE */
+
+/* = Speakers Page
+ * -------------------------------------------------------------- */
+
 #speakers img {
     height: 200px;
     width: 200px;
     border-radius: 999px;
 }
 
-/* HACKDASH IFRAME */
+
+/* = HackDash Page
+ * -------------------------------------------------------------- */
+
 #hackdash {
     padding: 0;
 }
@@ -77,7 +175,15 @@ div.ss-form-container br { display: none; }
     width: 100%;
     padding: 0;
 }
-#hackdash iframe{
-    padding: 0;
-	min-height: 500px;
+#hackdash-iframe {
+	margin-bottom: 0;
 }
+	#hackdash-iframe iframe {
+	    padding: 0;
+		min-height: 500px;
+	}
+	
+/* = Agenda Page
+ * -------------------------------------------------------------- */
+
+#agenda iframe { border: 1px solid #333; }
