@@ -41,6 +41,17 @@
 							get_template_part( 'includes/social_icons', 'footer' );
 						}
 					?>
+					
+					<script>
+					  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+					  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+					
+					  ga('create', 'UA-44795600-6', 'auto');
+					  ga('send', 'pageview');
+					
+					</script>
 				
 					<p id="footer-info"><?php printf( __( 'Implemented by %1$s', 'Divi' ), '<a href="http://www.codeforafrica.org" title="Code for Africa" target="_blank">Code for Africa</a>' ); ?></p>
 				</div>	<!-- .container -->
