@@ -1,13 +1,18 @@
-d|Bootcamp sites are multi-sites built from DiVi WordPress theme. 
+![d|Bootcamp Logo](./logo.png)
+------------------------------
 
-Documentation on the DiVi WordPress theme can be found [here](http://www.elegantthemes.com/gallery/divi/).
+This is the d|Bootcamp Wordpress theme.
 
-You can find the step-by-step guide to creationg WordPress multisites [here](http://www.elegantthemes.com/blog/resources/the-complete-guide-to-creating-a-wordpress-multisite-installation?utm_source=Elegant+Themes&utm_campaign=6ddcc6a2c0-RSS_EMAIL_CAMPAIGN&utm_medium=email&utm_term=0_c886a2fc0a-6ddcc6a2c0-42758533).
+This theme is a Divi child theme. Documentation on the Divi WordPress theme can be found [here](http://www.elegantthemes.com/gallery/divi/) and you can find the step-by-step guide to creating WordPress multisites [here](http://www.elegantthemes.com/blog/resources/the-complete-guide-to-creating-a-wordpress-multisite-installation).
 
-A complete listing of d|BootCamp Sites created under this theme is as such:
+Websites created using this theme include:
 
-* [http://dclinic.dbootcamp.org](http://dclinic.dbootcamp.org)
+- [http://dclinic.dbootcamp.org](http://dclinic.dbootcamp.org)
 
-* [http://india.dbootcamp.org](http://india.dbootcamp.org) 
+- [http://delhi.dbootcamp.org](http://delhi.dbootcamp.org) 
 
-* [http://nigeria.dbootcamp.org](http://nigeria.dbootcamp.org)
+- [http://nigeria.dbootcamp.org](http://nigeria.dbootcamp.org)
+
+- [http://nairobi.dbootcamp.org](http://nairobi.dbootcmap.org)
+
+- [http://nairobi.dbootcamp.org](http://nairobi.dbootcmap.org)
