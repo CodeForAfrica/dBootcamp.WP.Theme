@@ -34,6 +34,10 @@
 	color: #0873bb;
 }
 
+.entry-content tr td {
+  vertical-align: top;
+}
+
 
 /* = Footer section
  * -------------------------------------------------------------- */
