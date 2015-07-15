@@ -36,5 +36,7 @@ Websites created using this theme include:
 
 b) [Wiki](https://github.com/CodeForAfrica/dBootcamps/wiki)
 
+Wiki content will be added soon.
+
 
 
