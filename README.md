@@ -1,4 +1,4 @@
-![d|Bootcamp Logo](./logo.png)
+![d|Bootcamp Logo](./dBootcamp WP Theme/logo.png)
 ------------------------------
 
 This is the d|Bootcamp Wordpress theme.
