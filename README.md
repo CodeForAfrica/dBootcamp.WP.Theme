@@ -1,7 +1,7 @@
 ![d|Bootcamp Logo](./dBootcamp WP Theme/logo.png)
 ------------------------------
 
-Code For Africa seeks to build skills through Africa’s biggest data literacy programme that offers intensive workshops, masterclasses, and roundtables. The d|Bootcamps and their sister events [have run right across the globe](https://callmealien.cartodb.com/viz/f0d44f26-24c3-11e5-a9a0-0e0c41326911/embed_map), teaching basic data tech skills to both journalists and social justice activists, and narrative skills to technologists.
+Code For Africa seeks to seed skills through Africa’s biggest data literacy programme that offers intensive workshops, masterclasses, and roundtables. The d|Bootcamps and their sister events [have run right across the globe](https://callmealien.cartodb.com/viz/f0d44f26-24c3-11e5-a9a0-0e0c41326911/embed_map), teaching basic data tech skills to both journalists and social justice activists, and narrative skills to technologists.
 
 
 This d|Bootcamp repo contains assets like
