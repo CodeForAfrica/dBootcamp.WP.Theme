@@ -2,7 +2,7 @@ name,description,the_geom,dates
 "Delhi, India",http://delhi.dbootcamp.org/,0101000020E610000077D66EBBD04E534090A0F831E6A63C40,"September 5-7, 2014"
 "Amman, Jordan",http://jordan.dbootcamp.org/,0101000020E610000094DE37BEF6F84140317C444C89F43F40,"April 21-22, 2013"
 "Kampala, Uganda",http://kampala.dbootcamp.org/,0101000020E6100000452C62D8614A40406EA301BC0512D43F,"February 25-27, 2015"
-"Taipei, Taiwan",http://taipei.dbootcamp.org/,0101000020E61000002B1895D409625E40950ED6FF390C3940,"August 21-23, 2014"
+"Taipei, Taiwan",http://taipei.dbootcamp.org/,0101000020E61000002B1895D409625E40950ED6FF390C3940,"August 21-23, 2015"
 "Washington DC, USA",http://washington.dbootcamp.org/,0101000020E61000008E23D6E2534253C04A29E8F692724340,"February 20-21, 2015"
 "La Paz, Bolivia",http://bolivia.dbootcamp.org/,0101000020E61000009A999999990951C000000000008030C0,"June 12-14, 2013"
 "Dar Es Salaam, Tanzania",http://tanzania.dbootcamp.org/,0101000020E6100000F4F8BD4D7FA2434008556AF6404B1BC0,September 2015
@@ -10,7 +10,6 @@ name,description,the_geom,dates
 "Tunis, Tunisia",http://tunisia.dbootcamp.org/,0101000020E6100000F701486DE2542440DB334B02D4684240,"November 13, 2012"
 "Singapore City, Singapore",http://singapore.dbootcamp.org/,0101000020E6100000A60A462575F65940ECC039234A7BF43F,"October 26-27, 2014"
 "Montevideo, Uruguay",http://uruguay.dbootcamp.org/,0101000020E61000002B357BA015184CC0C190D5AD9E7341C0,"March 12-14, 2014"
-"Bogota, Colombia",-,0101000020E6100000F853E3A59B8452C0D5E76A2BF6D71240,-
 "Bogota, Colombia",http://www.meetup.com/es/Hacks-Hackers-Bogota/events/223756342/,0101000020E6100000F853E3A59B8452C0D5E76A2BF6D71240,"August 3, 2015"
 Mexico DF,http://www.meetup.com/es/HacksHackersMexicoCity/events/223695175/,0101000020E6100000C6DCB5847CC658C002BC0512143F3340,"August 1, 2015"
 "Lima, Peru",http://www.meetup.com/es/Hacks-Hackers-Lima/events/223320424/,0101000020E610000022A64412BD4253C00F9C33A2B41728C0,"July 18, 2015"
